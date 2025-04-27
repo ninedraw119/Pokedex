@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+</head>
+<body>
+  <div class="pokedex-container">
+    <div class="left-panel">
+      <div class="top-lights">
+        <div class="light red"></div>
+        <div class="light yellow"></div>
+        <div class="light green"></div>
+      </div>
+      <div class="screen">
+        <input type="text" id="search" placeholder="Buscar Pokémon...">
+        <div class="filters">
+          <select id="type-filter">
+            <option value="">Filtrar por Tipo</option>
+          </select>
+          <select id="generation-filter">
+            <option value="">Filtrar por Geração</option>
+            <option value="1">Geração 1</option>
+            <option value="2">Geração 2</option>
+            <option value="3">Geração 3</option>
+            <option value="4">Geração 4</option>
+            <option value="5">Geração 5</option>
+            <option value="6">Geração 6</option>
+            <option value="7">Geração 7</option>
+            <option value="8">Geração 8</option>
+          </select>
+          <select id="region-filter">
+            <option value="">Filtrar por Região</option>
+            <option value="kanto">Kanto</option>
+            <option value="johto">Johto</option>
+            <option value="hoenn">Hoenn</option>
+            <option value="sinnoh">Sinnoh</option>
+            <option value="unova">Unova</option>
+            <option value="kalos">Kalos</option>
+            <option value="alola">Alola</option>
+            <option value="galar">Galar</option>
+          </select>
+          <input type="number" id="min-weight" placeholder="Peso Mínimo (kg)">
+          <input type="number" id="max-weight" placeholder="Peso Máximo (kg)">
+          <input type="number" id="min-height" placeholder="Altura Mínima (m)">
+          <input type="number" id="max-height" placeholder="Altura Máxima (m)">
+        </div>
+        <div id="pokedex"></div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <div id="details-screen" class="details-screen hidden">
+        <span id="close-details">X</span>
+        <h2 id="pokemon-name"></h2>
+        <img id="pokemon-image" src="" alt="Pokémon">
+        <div id="pokemon-info"></div>
+        <div id="pokemon-evolution"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
