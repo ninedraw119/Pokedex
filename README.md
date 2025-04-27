@@ -1,4 +1,4 @@
-# Pokedex ![Mew](https://media.tenor.com/D_lanvlgizMAAAAi/javier-guerrero-mew-pokemon-nintendo-pixel.gif)
+# Pokedex [Mewtwo](https://emojis.slackmojis.com/emojis/images/1661888281/61024/mewtwo.png?1661888281.gif) 
 
 ##
 
