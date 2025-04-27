@@ -1,4 +1,4 @@
-# ![Mew](https://media.tenor.com/D_lanvlgizMAAAAi/javier-guerrero-mew-pokemon-nintendo-pixel.gif) Pokedex ![Mewtwo](https://media.tenor.com/iGSsICUR-2oAAAAi/mewtwo-sprite.gif)
+# Pokedex ![Mew](https://media.tenor.com/D_lanvlgizMAAAAi/javier-guerrero-mew-pokemon-nintendo-pixel.gif)
 
 ##
 
